@@ -2,6 +2,6 @@
 
 // export default Battle;
 
-import Race from '../Races/index';
+import { Race } from '../Races';
 
 export default Race;

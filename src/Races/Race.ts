@@ -1,4 +1,4 @@
-export default abstract class Race {
+abstract class Race {
   readonly name: string;
   readonly dexterity: number;
   
@@ -13,3 +13,5 @@ export default abstract class Race {
     throw new Error('Not implemented');
   }
 }
+
+export default Race;
