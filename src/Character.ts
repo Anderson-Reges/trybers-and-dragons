@@ -1,7 +1,7 @@
 import Archetype, { Mage } from './Archetypes';
 import getRandomInt from './utils';
 import Energy from './Energy';
-import Fighter from './Fighter';
+import Fighter, { SimpleFighter } from './Fighter';
 import { Elf, Race } from './Races';
 
 export default class Character implements Fighter {
@@ -69,8 +69,8 @@ export default class Character implements Fighter {
     return this.lifePoints <= 0 ? -1 : this.lifePoints;
   }
 
-  attack(enemy: Fighter): void {
-    console.log(`O ${enemy} recebeu ${this.strength} de dano`);
+  attack(enemy: SimpleFighter): void {
+    enemy.receiveDamage(this.strength);
   }
 
   levelUp(): void {
