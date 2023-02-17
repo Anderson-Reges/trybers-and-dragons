@@ -1,6 +1,6 @@
 import Battle from './Battle';
-import { Race } from '../Races';
+import PVP from './PVP';
 
-export { Battle };
+export { PVP }
 
-export default Race;
+export default Battle;
