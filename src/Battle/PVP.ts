@@ -1,7 +1,7 @@
-import Fighter from "../Fighter";
-import Battle from "./Battle";
+import Fighter from '../Fighter';
+import Battle from './Battle';
 
-export default class PVP extends Battle{
+export default class PVP extends Battle {
   constructor(public char1: Fighter, public char2: Fighter) {
     super(char1);
   }
@@ -17,5 +17,4 @@ export default class PVP extends Battle{
     this.resultBattle();
     return this.player.lifePoints === -1 ? -1 : 1;
   }
-  
 }
