@@ -5,4 +5,4 @@ export {
   SimpleFighter,
 };
 
-export default Fighter; 
+export default Fighter;
