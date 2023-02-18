@@ -19,17 +19,16 @@ Este projeto foi desenvolvido aplicando os princípios da arquitetura SOLID e os
   > Instale as dependências com `npm install`
   
   ⚠ Atenção ⚠ : **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima.
-``` 
 
 ## Executando aplicação
 
 > Use o comando `docker exec -it trybers_and_dragons bash`.
   - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
 > Dentro do terminal use um dos dois comandos para executar as classes da aplicação:
-  - ```
+ ```
     npm start // executa o index.ts uma vez
-    ```
+ ```
     ou
-  - ```
+ ```
     npm run dev // utiliza o nodemon pra vê as mudanças no index.ts em tempo real
-    ```
+ ```
