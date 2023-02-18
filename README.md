@@ -1,13 +1,41 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Trybers & Dragons
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+# ![image](https://user-images.githubusercontent.com/98627465/219843951-fb36c3a5-a9ca-475a-a84c-1e9a147f073e.png) O foi desenvolvido
+Este projeto foi desenvolvido aplicando os princípios da arquitetura SOLID e os princípios de POO(Programação Orienta a Objeto) em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+## Técnologias usadas
+
+> Desenvolvido usando: TypeScript
+
+## Instalando Dependências
+
+> Backend
+```bash
+cd api/ 
+npm install
+``` 
+> Frontend
+```bash
+cd src/
+npm install
+``` 
+## Executando aplicação
+
+> Rode o serviço `node` com o comando `docker-compose up -d`.
+  - Esse serviço irá inicializar um container chamado `trybers_and_dragons`.
+  - A partir daqui você pode rodar o container `trybers_and_dragons` via CLI ou abri-lo no VS Code.
+
+  > Use o comando `docker exec -it trybers_and_dragons bash`.
+  - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
+
+  > Instale as dependências com `npm install`
+  
+  ⚠ Atenção ⚠ : **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima. 
+
+## Executando Testes
+
+* Para rodar todos os testes:
+
+  ```
+    npm test
+  ```
