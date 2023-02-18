@@ -1,6 +1,6 @@
 # Trybers & Dragons
 
-# 👨‍💻 O foi desenvolvido
+# 👨‍💻 O que foi desenvolvido
 Este projeto foi desenvolvido aplicando os princípios da arquitetura SOLID e os princípios de POO(Programação Orienta a Objeto) em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 
 ## Técnologias usadas
